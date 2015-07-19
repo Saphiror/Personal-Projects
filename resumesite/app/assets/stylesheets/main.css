@@ -1,0 +1,61 @@
+/*// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+.sitewide-banner {
+	height: 48px;
+	background: #3b4671;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	z-index: 99;
+}
+#header {
+	text-align: center;
+}
+h1 {
+	padding-top: 20%;
+	color: white;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+
+}
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	width: 100%;
+}
+.menu li {
+	float: left;
+	margin-top: 1%;
+	margin-left: 8%;
+	font-size: 1.5em;
+	font-family: "Georgia";
+	color: white;
+}
+/*.menu li:hover {
+	text-decoration: underline;
+	background-color: black;
+}*/
+html {
+	background-color: black;
+}
+#description {
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+#links {
+	padding-top: 17%;
+	float: right;
+}
+#links ul {
+	list-style-type: none;
+	color: white;
+}
+#links ul li {
+	color: white;
+}
